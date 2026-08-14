@@ -44,8 +44,8 @@ export default function FastCalculator() {
       <div className="bg-white rounded-2xl shadow-sm border border-slate-200/80 p-6 sm:p-8">
         <div className="flex items-center justify-between mb-6 pb-4 border-b border-slate-100">
           <div>
-            <h1 className="text-2xl font-extrabold text-slate-900">FAST-NU Computing Calculator</h1>
-            <p className="text-sm text-slate-500 mt-1">Formula: 50% Entry Test + 40% Intermediate + 10% Matric</p>
+            <h1 className="text-2xl font-extrabold text-slate-900">FAST-NU Computing Aggregate Calculator</h1>
+            <p className="text-sm text-slate-500 mt-1">Official Weightage Formula: 50% Entry Test + 40% Intermediate + 10% Matric</p>
           </div>
           <button onClick={handleReset} className="p-2 text-slate-400 hover:text-slate-600 rounded-lg hover:bg-slate-100 transition" title="Reset Form">
             <RotateCcw className="w-5 h-5" />
@@ -130,6 +130,17 @@ export default function FastCalculator() {
           </div>
         )}
       </div>
+
+      {/* SEO Content Section for FAST-NU Calculator */}
+      <section className="mt-12 bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm">
+        <h2 className="text-xl font-bold text-slate-900 mb-3">About FAST-NU Admission Merit & Criteria</h2>
+        <p className="text-slate-600 text-sm leading-relaxed mb-3">
+          FAST National University of Computer and Emerging Sciences (FAST-NU) determines undergraduate BS CS and engineering merit using a weighted formula consisting of <strong>50% Entry Test</strong> (NU Test, NAT, or SAT), <strong>40% Intermediate</strong> marks, and <strong>10% Matriculation</strong> marks.
+        </p>
+        <p className="text-slate-600 text-sm leading-relaxed">
+          Paste your obtained and total marks above to calculate your exact aggregate and estimate your selection standing for campuses in Lahore, Islamabad, Karachi, Peshawar, and Chiniot-Faisalabad.
+        </p>
+      </section>
     </div>
   );
 }
