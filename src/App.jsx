@@ -5,11 +5,16 @@ import Home from './pages/Home';
 import NustCalculator from './pages/NustCalculator';
 import UetCalculator from './pages/UetCalculator';
 import MdcatCalculator from './pages/MdcatCalculator';
+import FastCalculator from './pages/FastCalculator';
+import GikiCalculator from './pages/GikiCalculator';
+import ComsatsCalculator from './pages/ComsatsCalculator';
+import PieasCalculator from './pages/PieasCalculator';
+import NedCalculator from './pages/NedCalculator';
 
 export default function App() {
   return (
     <Router>
-      <div className="min-h-screen flex flex-col justify-between selection:bg-blue-500 selection:text-white">
+      <div className="min-h-screen flex flex-col justify-between selection:bg-amber-500 selection:text-white bg-cream-50 font-['Plus_Jakarta_Sans'] text-slate-900">
         <Navbar />
         <main className="flex-grow">
           <Routes>
@@ -17,6 +22,11 @@ export default function App() {
             <Route path="/calculator/nust" element={<NustCalculator />} />
             <Route path="/calculator/uet" element={<UetCalculator />} />
             <Route path="/calculator/mdcat" element={<MdcatCalculator />} />
+            <Route path="/calculator/fast" element={<FastCalculator />} />
+            <Route path="/calculator/giki" element={<GikiCalculator />} />
+            <Route path="/calculator/comsats" element={<ComsatsCalculator />} />
+            <Route path="/calculator/pieas" element={<PieasCalculator />} />
+            <Route path="/calculator/ned" element={<NedCalculator />} />
           </Routes>
         </main>
         <Footer />
