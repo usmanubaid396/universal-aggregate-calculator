@@ -365,70 +365,70 @@ const blogs = {
   // --- COMSATS BLOGS ---
   'comsats-nts-nat-2026-complete-admission-schedule-for-all-campuses': {
     title: "COMSATS NTS NAT 2026 — Complete Admission Schedule for All Campuses",
-    description: "Complete COMSATS 2026 Fall admission guide. NTS NAT test dates for all campuses and registration details.",
+    description: "Complete COMSATS 2026 Fall admission guide. NTS NAT test dates for all campuses and registration details[cite: 1].",
     content: (
       <div className="space-y-6 text-slate-700">
         <p className="text-lg leading-relaxed">
-          COMSATS University Islamabad (CUI) operates 7 campuses across the country. For Fall 2026 admissions, COMSATS utilizes NTS NAT for entry evaluations.
+          COMSATS University Islamabad (CUI) operates 7 campuses across the country[cite: 1]. For Fall 2026 admissions, COMSATS utilizes NTS NAT for entry evaluations[cite: 1].
         </p>
         <p className="mt-4">
-          Compute your score using our <Link to="/calculator/comsats" className="text-amber-600 font-bold hover:underline">COMSATS Aggregate Calculator</Link>.
+          Compute your score using our <Link to="/calculator/comsats" className="text-amber-600 font-bold hover:underline">COMSATS Aggregate Calculator</Link>[cite: 1].
         </p>
       </div>
     )
   },
   'comsats-university-fall-2026-admissions-nts-registration-process-explained': {
     title: "COMSATS University Fall 2026 Admissions — NTS Registration Process Explained",
-    description: "Step-by-step guide to COMSATS 2026 Fall admissions, NTS NAT application, and document requirements.",
+    description: "Step-by-step guide to COMSATS 2026 Fall admissions, NTS NAT application, and document requirements[cite: 1].",
     content: (
       <div className="space-y-6 text-slate-700">
         <p className="text-lg leading-relaxed">
-          Navigating COMSATS admissions requires applying to the university portal while concurrently registering for the relevant NTS NAT test category.
+          Navigating COMSATS admissions requires applying to the university portal while concurrently registering for the relevant NTS NAT test category[cite: 1].
         </p>
         <p className="mt-4">
-          Check your aggregate percentage using our <Link to="/calculator/comsats" className="text-amber-600 font-bold hover:underline">COMSATS Aggregate Calculator</Link>.
+          Check your aggregate percentage using our <Link to="/calculator/comsats" className="text-amber-600 font-bold hover:underline">COMSATS Aggregate Calculator</Link>[cite: 1].
         </p>
       </div>
     )
   },
   'comsats-nts-test-pattern-2026-subject-wise-breakdown-and-preparation-strategy': {
     title: "COMSATS NTS Test Pattern 2026 — Subject-wise Breakdown and Preparation Strategy",
-    description: "Detailed analysis of COMSATS NTS NAT test pattern 2026 for NAT-IE, NAT-IM, and NAT-ICS.",
+    description: "Detailed analysis of COMSATS NTS NAT test pattern 2026 for NAT-IE, NAT-IM, and NAT-ICS[cite: 1].",
     content: (
       <div className="space-y-6 text-slate-700">
         <p className="text-lg leading-relaxed">
-          The NTS NAT format divides testing into verbal, quantitative, analytical reasoning, and subject-specific knowledge segments.
+          The NTS NAT format divides testing into verbal, quantitative, analytical reasoning, and subject-specific knowledge segments[cite: 1].
         </p>
         <p className="mt-4">
-          Test your expected aggregate with our <Link to="/calculator/comsats" className="text-amber-600 font-bold hover:underline">COMSATS Aggregate Calculator</Link>.
+          Test your expected aggregate with our <Link to="/calculator/comsats" className="text-amber-600 font-bold hover:underline">COMSATS Aggregate Calculator</Link>[cite: 1].
         </p>
       </div>
     )
   },
   'comsats-islamabad-vs-lahore-vs-abbottabad-campus-comparison-and-merit-trends-2026': {
     title: "COMSATS Islamabad vs Lahore vs Abbottabad — Campus Comparison & Merit Trends 2026",
-    description: "Detailed comparison of COMSATS campuses for 2026 admissions, merit trends, programs, and facilities.",
+    description: "Detailed comparison of COMSATS campuses for 2026 admissions, merit trends, programs, and facilities[cite: 1].",
     content: (
       <div className="space-y-6 text-slate-700">
         <p className="text-lg leading-relaxed">
-          With 7 campuses nationwide, COMSATS offers varied options, though Islamabad, Lahore, and Abbottabad remain the primary focal points.
+          With 7 campuses nationwide, COMSATS offers varied options, though Islamabad, Lahore, and Abbottabad remain the primary focal points[cite: 1].
         </p>
         <p className="mt-4">
-          Calculate your campus standing via our <Link to="/calculator/comsats" className="text-amber-600 font-bold hover:underline">COMSATS Aggregate Calculator</Link>.
+          Calculate your campus standing via our <Link to="/calculator/comsats" className="text-amber-600 font-bold hover:underline">COMSATS Aggregate Calculator</Link>[cite: 1].
         </p>
       </div>
     )
   },
   'comsats-spring-vs-fall-admissions-2026-which-intake-offers-better-opportunities': {
     title: "COMSATS Spring vs Fall Admissions 2026 — Which Intake Offers Better Opportunities?",
-    description: "Should you apply for COMSATS Fall 2026 or wait for Spring 2027? Intakes and program availability compared.",
+    description: "Should you apply for COMSATS Fall 2026 or wait for Spring 2027? Intakes and program availability compared[cite: 1].",
     content: (
       <div className="space-y-6 text-slate-700">
         <p className="text-lg leading-relaxed">
-          While Fall is the primary intake with maximum seat capacity, Spring admissions serve as an alternative cycle for applicants.
+          While Fall is the primary intake with maximum seat capacity, Spring admissions serve as an alternative cycle for applicants[cite: 1].
         </p>
         <p className="mt-4">
-          Assess your readiness with our <Link to="/calculator/comsats" className="text-amber-600 font-bold hover:underline">COMSATS Aggregate Calculator</Link>.
+          Assess your readiness with our <Link to="/calculator/comsats" className="text-amber-600 font-bold hover:underline">COMSATS Aggregate Calculator</Link>[cite: 1].
         </p>
       </div>
     )
@@ -437,70 +437,70 @@ const blogs = {
   // --- PIEAS BLOGS ---
   'pieas-admission-test-2026-complete-bs-admissions-schedule-and-important-dates': {
     title: "PIEAS Admission Test 2026 — Complete BS Admissions Schedule and Important Dates",
-    description: "Complete PIEAS 2026 BS admission guide. Test dates, registration deadlines, and merit calculation formula.",
+    description: "Complete PIEAS 2026 BS admission guide. Test dates, registration deadlines, and merit calculation formula[cite: 1].",
     content: (
       <div className="space-y-6 text-slate-700">
         <p className="text-lg leading-relaxed">
-          The Pakistan Institute of Engineering and Applied Sciences (PIEAS) is a top-ranked institution, offering a structured two-test admission mechanism.
+          The Pakistan Institute of Engineering and Applied Sciences (PIEAS) is a top-ranked institution, offering a structured two-test admission mechanism[cite: 1].
         </p>
         <p className="mt-4">
-          Compute your aggregate using our <Link to="/calculator/pieas" className="text-amber-600 font-bold hover:underline">PIEAS Aggregate Calculator</Link>.
+          Compute your aggregate using our <Link to="/calculator/pieas" className="text-amber-600 font-bold hover:underline">PIEAS Aggregate Calculator</Link>[cite: 1].
         </p>
       </div>
     )
   },
   'pieas-second-admission-test-2026-july-12-test-registration-cities-and-preparation': {
     title: "PIEAS Second Admission Test 2026 — July 12 Test Registration, Cities and Preparation",
-    description: "PIEAS second BS admission test on July 12, 2026. Registration details, test cities, and strategy.",
+    description: "PIEAS second BS admission test on July 12, 2026. Registration details, test cities, and strategy[cite: 1].",
     content: (
       <div className="space-y-6 text-slate-700">
         <p className="text-lg leading-relaxed">
-          For students who missed the first test, PIEAS conducts a second admission test across designated major cities to finalize admissions.
+          For students who missed the first test, PIEAS conducts a second admission test across designated major cities to finalize admissions[cite: 1].
         </p>
         <p className="mt-4">
-          Evaluate your score standing using our <Link to="/calculator/pieas" className="text-amber-600 font-bold hover:underline">PIEAS Aggregate Calculator</Link>.
+          Evaluate your score standing using our <Link to="/calculator/pieas" className="text-amber-600 font-bold hover:underline">PIEAS Aggregate Calculator</Link>[cite: 1].
         </p>
       </div>
     )
   },
   'pieas-merit-list-2026-expected-closing-merits-and-seat-distribution-analysis': {
     title: "PIEAS Merit List 2026 — Expected Closing Merits and Seat Distribution Analysis",
-    description: "PIEAS 2026 merit list analysis. Expected closing merits for engineering programs and seat distributions.",
+    description: "PIEAS 2026 merit list analysis. Expected closing merits for engineering programs and seat distributions[cite: 1].",
     content: (
       <div className="space-y-6 text-slate-700">
         <p className="text-lg leading-relaxed">
-          With multiple merit lists scheduled sequentially, PIEAS admissions provide opportunities across open merit, provincial quotas, and self-finance categories.
+          With multiple merit lists scheduled sequentially, PIEAS admissions provide opportunities across open merit, provincial quotas, and self-finance categories[cite: 1].
         </p>
         <p className="mt-4">
-          Check your admission potential with our <Link to="/calculator/pieas" className="text-amber-600 font-bold hover:underline">PIEAS Aggregate Calculator</Link>.
+          Check your admission potential with our <Link to="/calculator/pieas" className="text-amber-600 font-bold hover:underline">PIEAS Aggregate Calculator</Link>[cite: 1].
         </p>
       </div>
     )
   },
   'pieas-vs-giki-vs-nust-pakistans-top-engineering-institutes-comparison-2026': {
     title: "PIEAS vs GIKI vs NUST — Pakistan’s Top Engineering Institutes Comparison 2026",
-    description: "Ultimate comparison of Pakistan’s top 3 engineering universities on rankings, research, and admissions.",
+    description: "Ultimate comparison of Pakistan’s top 3 engineering universities on rankings, research, and admissions[cite: 1].",
     content: (
       <div className="space-y-6 text-slate-700">
         <p className="text-lg leading-relaxed">
-          PIEAS, GIKI, and NUST represent the peak of technical education in Pakistan, each catering to different academic strengths and career objectives.
+          PIEAS, GIKI, and NUST represent the peak of technical education in Pakistan, each catering to different academic strengths and career objectives[cite: 1].
         </p>
         <p className="mt-4">
-          Verify your eligibility metrics using our <Link to="/calculator/pieas" className="text-amber-600 font-bold hover:underline">PIEAS Aggregate Calculator</Link>.
+          Verify your eligibility metrics using our <Link to="/calculator/pieas" className="text-amber-600 font-bold hover:underline">PIEAS Aggregate Calculator</Link>[cite: 1].
         </p>
       </div>
     )
   },
   'pieas-ms-and-phd-admissions-2026-graduate-programs-schedule-and-requirements': {
     title: "PIEAS MS and PhD Admissions 2026 — Graduate Programs Schedule and Requirements",
-    description: "PIEAS 2026 MS and PhD admission schedule, GAT requirements, psychological evaluations, and fellowships.",
+    description: "PIEAS 2026 MS and PhD admission schedule, GAT requirements, psychological evaluations, and fellowships[cite: 1].",
     content: (
       <div className="space-y-6 text-slate-700">
         <p className="text-lg leading-relaxed">
-          Beyond undergraduate studies, PIEAS graduate programs feature rigorous written evaluations, interviews, and prestigious research fellowships.
+          Beyond undergraduate studies, PIEAS graduate programs feature rigorous written evaluations, interviews, and prestigious research fellowships[cite: 1].
         </p>
         <p className="mt-4">
-          Calculate your foundational scores with our <Link to="/calculator/pieas" className="text-amber-600 font-bold hover:underline">PIEAS Aggregate Calculator</Link>.
+          Calculate your foundational scores with our <Link to="/calculator/pieas" className="text-amber-600 font-bold hover:underline">PIEAS Aggregate Calculator</Link>[cite: 1].
         </p>
       </div>
     )
@@ -509,42 +509,42 @@ const blogs = {
   // --- NED UNIVERSITY BLOGS ---
   'ned-university-entry-test-2026-complete-admission-guide-and-test-pattern': {
     title: "NED University Entry Test 2026 — Complete Admission Guide and Test Pattern",
-    description: "NED University Karachi 2026 undergraduate admission guide, test phases, and merit calculation formula.",
+    description: "NED University Karachi 2026 undergraduate admission guide, test phases, and merit calculation formula[cite: 1].",
     content: (
       <div className="space-y-6 text-slate-700">
         <p className="text-lg leading-relaxed">
-          NED University of Engineering & Technology, Karachi, has structured its undergraduate admissions around a multi-phase pre-admission entry test framework.
+          NED University of Engineering & Technology, Karachi, has structured its undergraduate admissions around a multi-phase pre-admission entry test framework[cite: 1].
         </p>
         <p className="mt-4">
-          Compute your merit aggregate using our <Link to="/calculator/ned" className="text-amber-600 font-bold hover:underline">NED Aggregate Calculator</Link>.
+          Compute your merit aggregate using our <Link to="/calculator/ned" className="text-amber-600 font-bold hover:underline">NED Aggregate Calculator</Link>[cite: 1].
         </p>
       </div>
     )
   },
   'ned-university-first-provisional-call-list-2026-merit-analysis-and-next-steps': {
     title: "NED University First Provisional Call List 2026 — Merit Analysis and Next Steps",
-    description: "NED University Karachi first provisional call list, document verification requirements, and fee submission process.",
+    description: "NED University Karachi first provisional call list, document verification requirements, and fee submission process[cite: 1].",
     content: (
       <div className="space-y-6 text-slate-700">
         <p className="text-lg leading-relaxed">
-          The provisional call list marks the start of document verifications and fee compliance for successful engineering candidates at NED.
+          The provisional call list marks the start of document verifications and fee compliance for successful engineering candidates at NED[cite: 1].
         </p>
         <p className="mt-4">
-          Verify your calculated standing with our <Link to="/calculator/ned" className="text-amber-600 font-bold hover:underline">NED Aggregate Calculator</Link>.
+          Verify your calculated standing with our <Link to="/calculator/ned" className="text-amber-600 font-bold hover:underline">NED Aggregate Calculator</Link>[cite: 1].
         </p>
       </div>
     )
   },
   'ned-university-self-finance-category-2026-new-addition-and-fee-structure': {
     title: "NED University Self-Finance Category 2026 — New Addition and Fee Structure",
-    description: "NED University Karachi added Self-Finance category for 2026 admissions with fee structure breakdown.",
+    description: "NED University Karachi added Self-Finance category for 2026 admissions with fee structure breakdown[cite: 1].",
     content: (
       <div className="space-y-6 text-slate-700">
         <p className="text-lg leading-relaxed">
-          The addition of a Self-Finance category provides an alternative pathway for applicants meeting relaxed aggregate thresholds.
+          The addition of a Self-Finance category provides an alternative pathway for applicants meeting relaxed aggregate thresholds[cite: 1].
         </p>
         <p className="mt-4">
-          Evaluate alternative program tracks using our <Link to="/calculator/ned" className="text-amber-600 font-bold hover:underline">NED Aggregate Calculator</Link>.
+          Evaluate alternative program tracks using our <Link to="/calculator/ned" className="text-amber-600 font-bold hover:underline">NED Aggregate Calculator</Link>[cite: 1].
         </p>
       </div>
     )
