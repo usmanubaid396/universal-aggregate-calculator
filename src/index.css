@@ -5,27 +5,23 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    scroll-behavior: smooth;
-  }
   body {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    @apply bg-slate-900 text-slate-100 antialiased selection:bg-blue-500 selection:text-white;
+    @apply bg-slate-950 text-slate-100 antialiased selection:bg-blue-500 selection:text-white overflow-x-hidden;
   }
 }
 
-/* 60 FPS Hardware Accelerated Transitions */
+/* 60 FPS Hardware-Accelerated Smooth Animations */
 .page-transition {
   will-change: transform, opacity;
   transform: translateZ(0);
-  backface-visibility: hidden;
-  animation: smoothFadeIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation: smoothFadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 @keyframes smoothFadeIn {
   from {
     opacity: 0;
-    transform: translateY(8px) scale(0.99);
+    transform: translateY(10px) scale(0.98);
   }
   to {
     opacity: 1;
@@ -33,10 +29,10 @@
   }
 }
 
-/* Custom Glassmorphism Effect */
-.glass-card {
-  background: rgba(30, 41, 59, 0.7);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+/* Glassmorphism Effect */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
