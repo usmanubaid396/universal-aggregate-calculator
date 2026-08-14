@@ -44,8 +44,8 @@ export default function ComsatsCalculator() {
       <div className="bg-white rounded-2xl shadow-sm border border-slate-200/80 p-6 sm:p-8">
         <div className="flex items-center justify-between mb-6 pb-4 border-b border-slate-100">
           <div>
-            <h1 className="text-2xl font-extrabold text-slate-900">COMSATS University Calculator</h1>
-            <p className="text-sm text-slate-500 mt-1">Formula: 50% NTS-NAT/Test + 40% Intermediate + 10% Matric</p>
+            <h1 className="text-2xl font-extrabold text-slate-900">COMSATS University Aggregate Calculator</h1>
+            <p className="text-sm text-slate-500 mt-1">Official Weightage Formula: 50% NTS-NAT / Entry Test + 40% Intermediate + 10% Matric</p>
           </div>
           <button onClick={handleReset} className="p-2 text-slate-400 hover:text-slate-600 rounded-lg hover:bg-slate-100 transition" title="Reset Form">
             <RotateCcw className="w-5 h-5" />
@@ -130,6 +130,17 @@ export default function ComsatsCalculator() {
           </div>
         )}
       </div>
+
+      {/* SEO Content Section for COMSATS Calculator */}
+      <section className="mt-12 bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm">
+        <h2 className="text-xl font-bold text-slate-900 mb-3">About COMSATS University Admission Merit</h2>
+        <p className="text-slate-600 text-sm leading-relaxed mb-3">
+          COMSATS University Islamabad calculates undergraduate program merit based on a standard weightage formula: <strong>50% NTS-NAT or university entry test score</strong>, <strong>40% Intermediate (FSc/ICS/FA)</strong> marks, and <strong>10% Matriculation</strong> marks.
+        </p>
+        <p className="text-slate-600 text-sm leading-relaxed">
+          Use our precise calculator above to instantly determine your aggregate percentage and check whether you meet the closing merit criteria for Computer Science, Software Engineering, Electrical Engineering, and other BS programs.
+        </p>
+      </section>
     </div>
   );
 }
