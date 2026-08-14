@@ -96,6 +96,66 @@ export default function Home() {
         </div>
       </div>
 
+      {/* SEO Content Section */}
+      <section className="relative z-10 max-w-5xl mx-auto pb-16">
+        <div className="space-y-12">
+          <div className="text-center max-w-3xl mx-auto">
+            <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
+              Pakistan's Most Accurate Merit Predictor
+            </h2>
+            <p className="text-lg text-slate-600 leading-relaxed">
+              Planning your university admissions doesn't have to be stressful. The Universal Aggregate Calculator is engineered to compute academic entry aggregates for Pakistani universities instantly and accurately. Whether you are aiming for top engineering institutes or premier medical colleges, our platform provides precise merit calculations down to four decimal places, eliminating the guesswork from your Fall 2026 admission journey.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 lg:gap-12 bg-white/80 backdrop-blur-md rounded-3xl border border-amber-100 shadow-sm p-8 sm:p-10">
+            <div>
+              <h3 className="text-2xl font-bold text-slate-900 mb-4">
+                Calculate Your Merit Instantly
+              </h3>
+              <p className="text-slate-600 leading-relaxed mb-6">
+                Every university in Pakistan uses a unique weighting formula for FSc, Matric, and their specific entry tests. Instead of manually crunching numbers, our platform automates the process using the latest official 2026 admission criteria. Simply input your academic scores, and let the system calculate your exact aggregate in seconds.
+              </p>
+              
+              <h3 className="text-2xl font-bold text-slate-900 mb-4 mt-8">
+                2026 Admission Guides
+              </h3>
+              <p className="text-slate-600 leading-relaxed">
+                Beyond aggregate calculation, navigating university admissions requires the right strategy. Explore our comprehensive blog section for up-to-date admission schedules, test patterns, closing merit predictions, and strategic preparation guides to help you secure your seat.
+              </p>
+            </div>
+
+            <div className="bg-amber-50/50 rounded-2xl p-6 sm:p-8 border border-amber-100/60">
+              <h3 className="text-xl font-bold text-slate-900 mb-6">
+                Supported Universities & Tests
+              </h3>
+              <ul className="space-y-4">
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 mt-2 rounded-full bg-amber-500 shrink-0"></div>
+                  <p className="text-slate-700"><strong className="text-slate-900">NUST (NET):</strong> Compute exact weightages for engineering, computing, and business programs across all campuses.</p>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 mt-2 rounded-full bg-emerald-500 shrink-0"></div>
+                  <p className="text-slate-700"><strong className="text-slate-900">MDCAT (PMDC):</strong> Calculate your medical and dental college aggregate for UHS, KMU, DUHS, and BUMHS.</p>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 mt-2 rounded-full bg-blue-500 shrink-0"></div>
+                  <p className="text-slate-700"><strong className="text-slate-900">UET Lahore (ECAT):</strong> Determine your phase 1 and phase 2 merit for all UET campuses.</p>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 mt-2 rounded-full bg-indigo-500 shrink-0"></div>
+                  <p className="text-slate-700"><strong className="text-slate-900">FAST (NUCES):</strong> Accurately factor in the negative marking and weightage for CS, SE, and AI programs.</p>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 mt-2 rounded-full bg-purple-500 shrink-0"></div>
+                  <p className="text-slate-700"><strong className="text-slate-900">GIKI, COMSATS, PIEAS & NED:</strong> Instantly check your standing for highly competitive specialized entry tests.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* University Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 relative z-10">
         {universities.map((uni) => (
