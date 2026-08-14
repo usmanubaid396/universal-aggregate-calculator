@@ -44,8 +44,8 @@ export default function MdcatCalculator() {
       <div className="bg-white rounded-2xl shadow-sm border border-slate-200/80 p-6 sm:p-8">
         <div className="flex items-center justify-between mb-6 pb-4 border-b border-slate-100">
           <div>
-            <h1 className="text-2xl font-extrabold text-slate-900">MDCAT Public Medical Calculator</h1>
-            <p className="text-sm text-slate-500 mt-1">Formula: 50% MDCAT + 40% FSc Pre-Medical + 10% Matric</p>
+            <h1 className="text-2xl font-extrabold text-slate-900">MDCAT Public Medical Aggregate Calculator</h1>
+            <p className="text-sm text-slate-500 mt-1">Official PMDC Weightage Formula: 50% MDCAT + 40% FSc Pre-Medical + 10% Matric</p>
           </div>
           <button onClick={handleReset} className="p-2 text-slate-400 hover:text-slate-600 rounded-lg hover:bg-slate-100 transition" title="Reset Form">
             <RotateCcw className="w-5 h-5" />
@@ -174,6 +174,17 @@ export default function MdcatCalculator() {
           </div>
         )}
       </div>
+
+      {/* SEO Content Section for MDCAT Calculator */}
+      <section className="mt-12 bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm">
+        <h2 className="text-xl font-bold text-slate-900 mb-3">About PMDC MDCAT Merit & Admission Criteria</h2>
+        <p className="text-slate-600 text-sm leading-relaxed mb-3">
+          Medical and Dental College Admission Test (MDCAT) admissions for public sector medical universities across Pakistan are regulated by PMDC guidelines. The final merit aggregate is computed using <strong>50% MDCAT exam score</strong>, <strong>40% FSc Pre-Medical (HSSC)</strong> marks, and <strong>10% Matriculation</strong> marks.
+        </p>
+        <p className="text-slate-600 text-sm leading-relaxed">
+          Input your credentials into our precise calculator above to see your exact aggregate percentage and check your admission competitiveness for MBBS and BDS seats in public medical colleges.
+        </p>
+      </section>
     </div>
   );
 }
