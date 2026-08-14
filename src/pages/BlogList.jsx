@@ -135,6 +135,77 @@ const blogPosts = [
     slug: 'how-to-prepare-for-giki-admission-test-2026-subject-wise-strategy',
     title: 'How to Prepare for GIKI Admission Test 2026 — Subject-wise Strategy',
     description: 'Proven preparation strategy for Mathematics, Physics, Chemistry, and English sections.'
+  },
+
+  // --- COMSATS BLOGS ---
+  {
+    slug: 'comsats-nts-nat-2026-complete-admission-schedule-for-all-campuses',
+    title: 'COMSATS NTS NAT 2026 — Complete Admission Schedule for All Campuses',
+    description: 'Complete COMSATS 2026 Fall admission guide. NTS NAT test dates for all campuses and registration details.'
+  },
+  {
+    slug: 'comsats-university-fall-2026-admissions-nts-registration-process-explained',
+    title: 'COMSATS University Fall 2026 Admissions — NTS Registration Process Explained',
+    description: 'Step-by-step guide to COMSATS 2026 Fall admissions, NTS NAT application, and document requirements.'
+  },
+  {
+    slug: 'comsats-nts-test-pattern-2026-subject-wise-breakdown-and-preparation-strategy',
+    title: 'COMSATS NTS Test Pattern 2026 — Subject-wise Breakdown and Preparation Strategy',
+    description: 'Detailed analysis of COMSATS NTS NAT test pattern 2026 for NAT-IE, NAT-IM, and NAT-ICS.'
+  },
+  {
+    slug: 'comsats-islamabad-vs-lahore-vs-abbottabad-campus-comparison-and-merit-trends-2026',
+    title: 'COMSATS Islamabad vs Lahore vs Abbottabad — Campus Comparison & Merit Trends 2026',
+    description: 'Detailed comparison of COMSATS campuses for 2026 admissions, merit trends, programs, and facilities.'
+  },
+  {
+    slug: 'comsats-spring-vs-fall-admissions-2026-which-intake-offers-better-opportunities',
+    title: 'COMSATS Spring vs Fall Admissions 2026 — Which Intake Offers Better Opportunities?',
+    description: 'Should you apply for COMSATS Fall 2026 or wait for Spring 2027? Intakes and program availability compared.'
+  },
+
+  // --- PIEAS BLOGS ---
+  {
+    slug: 'pieas-admission-test-2026-complete-bs-admissions-schedule-and-important-dates',
+    title: 'PIEAS Admission Test 2026 — Complete BS Admissions Schedule and Important Dates',
+    description: 'Complete PIEAS 2026 BS admission guide. Test dates, registration deadlines, and merit calculation formula.'
+  },
+  {
+    slug: 'pieas-second-admission-test-2026-july-12-test-registration-cities-and-preparation',
+    title: 'PIEAS Second Admission Test 2026 — July 12 Test Registration, Cities and Preparation',
+    description: 'PIEAS second BS admission test on July 12, 2026. Registration details, test cities, and strategy.'
+  },
+  {
+    slug: 'pieas-merit-list-2026-expected-closing-merits-and-seat-distribution-analysis',
+    title: 'PIEAS Merit List 2026 — Expected Closing Merits and Seat Distribution Analysis',
+    description: 'PIEAS 2026 merit list analysis. Expected closing merits for engineering programs and seat distributions.'
+  },
+  {
+    slug: 'pieas-vs-giki-vs-nust-pakistans-top-engineering-institutes-comparison-2026',
+    title: 'PIEAS vs GIKI vs NUST — Pakistan’s Top Engineering Institutes Comparison 2026',
+    description: 'Ultimate comparison of Pakistan’s top 3 engineering universities on rankings, research, and admissions.'
+  },
+  {
+    slug: 'pieas-ms-and-phd-admissions-2026-graduate-programs-schedule-and-requirements',
+    title: 'PIEAS MS and PhD Admissions 2026 — Graduate Programs Schedule and Requirements',
+    description: 'PIEAS 2026 MS and PhD admission schedule, GAT requirements, psychological evaluations, and fellowships.'
+  },
+
+  // --- NED UNIVERSITY BLOGS ---
+  {
+    slug: 'ned-university-entry-test-2026-complete-admission-guide-and-test-pattern',
+    title: 'NED University Entry Test 2026 — Complete Admission Guide and Test Pattern',
+    description: 'NED University Karachi 2026 undergraduate admission guide, test phases, and merit calculation formula.'
+  },
+  {
+    slug: 'ned-university-first-provisional-call-list-2026-merit-analysis-and-next-steps',
+    title: 'NED University First Provisional Call List 2026 — Merit Analysis and Next Steps',
+    description: 'NED University Karachi first provisional call list, document verification requirements, and fee submission process.'
+  },
+  {
+    slug: 'ned-university-self-finance-category-2026-new-addition-and-fee-structure',
+    title: 'NED University Self-Finance Category 2026 — New Addition and Fee Structure',
+    description: 'NED University Karachi added Self-Finance category for 2026 admissions with fee structure breakdown.'
   }
 ];
 
