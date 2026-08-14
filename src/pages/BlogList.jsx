@@ -1,9 +1,11 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, BookOpen, Sparkles, GraduationCap, Stethoscope, Cpu, Award } from 'lucide-react';
+import { ArrowRight, BookOpen, Sparkles, GraduationCap, Stethoscope, Cpu, Award, Clock, CalendarDays } from 'lucide-react';
 
 const categories = [
   {
-    name: 'NUST NET Guides & News',
+    id: 'nust',
+    name: 'NUST NET',
     icon: GraduationCap,
     color: 'text-blue-600 bg-blue-50 border-blue-200',
     posts: [
@@ -15,7 +17,8 @@ const categories = [
     ]
   },
   {
-    name: 'UET ECAT Guides',
+    id: 'uet',
+    name: 'UET ECAT',
     icon: Award,
     color: 'text-amber-600 bg-amber-50 border-amber-200',
     posts: [
@@ -27,7 +30,8 @@ const categories = [
     ]
   },
   {
-    name: 'MDCAT Medical Guides',
+    id: 'mdcat',
+    name: 'MDCAT',
     icon: Stethoscope,
     color: 'text-emerald-600 bg-emerald-50 border-emerald-200',
     posts: [
@@ -39,7 +43,8 @@ const categories = [
     ]
   },
   {
-    name: 'FAST NU Guides',
+    id: 'fast',
+    name: 'FAST NU',
     icon: Cpu,
     color: 'text-indigo-600 bg-indigo-50 border-indigo-200',
     posts: [
@@ -51,7 +56,8 @@ const categories = [
     ]
   },
   {
-    name: 'GIKI Guides',
+    id: 'giki',
+    name: 'GIKI',
     icon: GraduationCap,
     color: 'text-purple-600 bg-purple-50 border-purple-200',
     posts: [
@@ -63,7 +69,8 @@ const categories = [
     ]
   },
   {
-    name: 'COMSATS Guides',
+    id: 'comsats',
+    name: 'COMSATS',
     icon: BookOpen,
     color: 'text-cyan-600 bg-cyan-50 border-cyan-200',
     posts: [
@@ -75,7 +82,8 @@ const categories = [
     ]
   },
   {
-    name: 'PIEAS Guides',
+    id: 'pieas',
+    name: 'PIEAS',
     icon: Sparkles,
     color: 'text-rose-600 bg-rose-50 border-rose-200',
     posts: [
@@ -87,7 +95,8 @@ const categories = [
     ]
   },
   {
-    name: 'NED University Guides',
+    id: 'ned',
+    name: 'NED Karachi',
     icon: GraduationCap,
     color: 'text-orange-600 bg-orange-50 border-orange-200',
     posts: [
@@ -99,53 +108,122 @@ const categories = [
 ];
 
 export default function BlogList() {
+  // State to handle which category is currently selected
+  const [activeTab, setActiveTab] = useState('All');
+
+  // Filter logic based on the active tab
+  const displayedCategories = activeTab === 'All' 
+    ? categories 
+    : categories.filter(cat => cat.id === activeTab);
+
   return (
-    <div className="max-w-5xl mx-auto py-16 px-4 sm:px-6">
-      <div className="text-center mb-16">
-        <div className="inline-flex items-center gap-2 py-1 px-3 rounded-full text-xs font-bold bg-amber-500/10 text-amber-700 mb-4 border border-amber-500/20">
-          <Sparkles className="w-3.5 h-3.5" /> Admission Guides, News & Updates 2026
+    <div className="min-h-screen bg-slate-50 py-16 px-4 sm:px-6 font-['Plus_Jakarta_Sans']">
+      <div className="max-w-6xl mx-auto">
+        
+        {/* Header Section */}
+        <div className="text-center mb-12">
+          <div className="inline-flex items-center gap-2 py-1.5 px-4 rounded-full text-xs font-bold bg-amber-500/10 text-amber-700 mb-6 border border-amber-500/20">
+            <Sparkles className="w-3.5 h-3.5" /> Admission Guides & Updates 2026
+          </div>
+          <h1 className="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight">
+            Engineering & Medical <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Blog Hub</span>
+          </h1>
+          <p className="text-slate-500 mt-4 text-lg max-w-2xl mx-auto">
+            Browse expert entry test guides, campus comparisons, and official merit lists. Select a university below to filter topics.
+          </p>
         </div>
-        <h1 className="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight">Engineering & Medical Blog Hub</h1>
-        <p className="text-slate-600 mt-3 text-lg">Browse expert entry test guides, campus comparisons, and merit lists categorized by university.</p>
-      </div>
 
-      <div className="space-y-16">
-        {categories.map((cat) => {
-          const IconComponent = cat.icon;
-          return (
-            <div key={cat.name} className="space-y-6">
-              <div className="flex items-center gap-3 border-b border-slate-200 pb-4">
-                <div className={`p-2 rounded-xl border ${cat.color}`}>
-                  <IconComponent className="w-6 h-6" />
+        {/* Filter Navigation Pills */}
+        <div className="flex overflow-x-auto pb-4 mb-8 sm:justify-center hide-scrollbar">
+          <div className="flex gap-2">
+            <button
+              onClick={() => setActiveTab('All')}
+              className={`whitespace-nowrap px-5 py-2.5 rounded-full text-sm font-bold transition-all ${
+                activeTab === 'All' 
+                ? 'bg-slate-900 text-white shadow-md' 
+                : 'bg-white text-slate-600 border border-slate-200 hover:border-slate-300 hover:bg-slate-100'
+              }`}
+            >
+              View All
+            </button>
+            {categories.map((cat) => (
+              <button
+                key={cat.id}
+                onClick={() => setActiveTab(cat.id)}
+                className={`whitespace-nowrap px-5 py-2.5 rounded-full text-sm font-bold transition-all flex items-center gap-2 ${
+                  activeTab === cat.id
+                  ? 'bg-amber-600 text-white shadow-md'
+                  : 'bg-white text-slate-600 border border-slate-200 hover:border-amber-300 hover:bg-amber-50 hover:text-amber-700'
+                }`}
+              >
+                <cat.icon className="w-4 h-4" />
+                {cat.name}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Blog Post Grids */}
+        <div className="space-y-16">
+          {displayedCategories.map((cat) => {
+            const IconComponent = cat.icon;
+            return (
+              <div key={cat.name} className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
+                
+                {/* Category Title Header (Only show if 'All' is selected, otherwise it's redundant) */}
+                {activeTab === 'All' && (
+                  <div className="flex items-center gap-3 border-b border-slate-200 pb-3">
+                    <div className={`p-2 rounded-xl border ${cat.color}`}>
+                      <IconComponent className="w-5 h-5" />
+                    </div>
+                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">{cat.name}</h2>
+                  </div>
+                )}
+
+                <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                  {cat.posts.map((post) => (
+                    <Link 
+                      key={post.slug} 
+                      to={`/blog/${post.slug}`}
+                      className="group flex flex-col justify-between bg-white p-6 rounded-2xl border border-slate-200 hover:border-amber-400 hover:shadow-lg hover:shadow-amber-500/5 transition-all duration-300"
+                    >
+                      <div>
+                        {/* Article Meta Data */}
+                        <div className="flex items-center justify-between mb-4 text-xs font-semibold text-slate-400">
+                          <div className="flex items-center gap-1.5">
+                            <CalendarDays className="w-3.5 h-3.5" />
+                            <span>Aug 2026</span>
+                          </div>
+                          <div className="flex items-center gap-1.5">
+                            <Clock className="w-3.5 h-3.5" />
+                            <span>4 min read</span>
+                          </div>
+                        </div>
+
+                        {/* Title & Description */}
+                        <h3 className="text-lg font-bold text-slate-900 group-hover:text-amber-700 transition-colors leading-snug line-clamp-2">
+                          {post.title}
+                        </h3>
+                        <p className="text-slate-500 text-sm mt-3 line-clamp-3 leading-relaxed">
+                          {post.description}
+                        </p>
+                      </div>
+                      
+                      {/* Footer CTA */}
+                      <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <span className="text-sm font-bold text-amber-600 group-hover:text-amber-700">Read Article</span>
+                        <div className="w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 group-hover:bg-amber-100 group-hover:text-amber-700 transition-colors">
+                          <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
                 </div>
-                <h2 className="text-2xl font-extrabold text-slate-900 tracking-tight">{cat.name}</h2>
               </div>
+            );
+          })}
+        </div>
 
-              <div className="grid gap-4 sm:grid-cols-2">
-                {cat.posts.map((post) => (
-                  <Link 
-                    key={post.slug} 
-                    to={`/blog/${post.slug}`}
-                    className="group block bg-white p-6 rounded-2xl border border-slate-200 hover:border-amber-400 transition shadow-sm hover:shadow-md flex flex-col justify-between"
-                  >
-                    <div>
-                      <h3 className="text-lg font-bold text-slate-900 group-hover:text-amber-600 transition leading-snug">
-                        {post.title}
-                      </h3>
-                      <p className="text-slate-600 text-sm mt-2 line-clamp-2 leading-relaxed">
-                        {post.description}
-                      </p>
-                    </div>
-                    <div className="mt-4 flex items-center gap-1.5 text-xs font-bold text-amber-600 group-hover:translate-x-1 transition-transform">
-                      <span>Read Full Guide</span>
-                      <ArrowRight className="w-4 h-4" />
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          );
-        })}
       </div>
     </div>
   );
