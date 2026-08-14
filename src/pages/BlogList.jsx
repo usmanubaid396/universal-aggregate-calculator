@@ -54,6 +54,87 @@ const blogPosts = [
     slug: 'uet-fake-admission-ads-2026-scam-warning',
     title: 'Fake UET Admission Advertisements 2026 — How to Spot Scams',
     description: 'UET official warning regarding fraudulent admission ads, leftover seats, and how to stay safe.'
+  },
+
+  // --- MDCAT BLOGS ---
+  {
+    slug: 'mdcat-2026-date-rescheduled-september-20-pmdc',
+    title: 'MDCAT 2026 Date Rescheduled to September 20 — PMDC New Timeline',
+    description: 'PMDC rescheduled MDCAT 2026 to September 20, 2026. Registration details, fees, and merit impact.'
+  },
+  {
+    slug: 'mdcat-2026-jrc-requirement-under-18-candidates',
+    title: 'MDCAT 2026 New JRC Requirement — Under-18 Candidates Guide',
+    description: 'PMDC introduced a new Juvenile Registration Certificate requirement for candidates under 18.'
+  },
+  {
+    slug: 'mdcat-2026-syllabus-unchanged-repeaters-advantage',
+    title: 'MDCAT 2026 Syllabus Unchanged — Why This Helps Repeaters',
+    description: 'PMDC confirmed MDCAT 2026 syllabus remains identical to 2025. Subject weightage and breakdown.'
+  },
+  {
+    slug: 'mdcat-2026-provincial-admission-bodies-uhs-kmu-duhs',
+    title: 'MDCAT 2026 Provincial Admission Bodies — UHS, KMU, DUHS Explained',
+    description: 'Understand UHS Punjab, KMU KPK, DUHS Sindh, and BUMHS Balochistan merit processes for 2026.'
+  },
+  {
+    slug: 'mdcat-2026-score-validity-3-years-gap-year-students',
+    title: 'MDCAT 2026 Score Validity Extended — The 3-Year Rule Explained',
+    description: 'PMDC MDCAT scores are now valid for 3 years under Section 17 of the PM&DC Act 2022.'
+  },
+
+  // --- FAST NU TEST BLOGS ---
+  {
+    slug: 'fast-nu-admission-test-2026-dates-registration',
+    title: 'FAST NU Admission Test 2026 — Registration Open, Test Dates July 4 & 11',
+    description: 'FAST NU 2026 admissions open. NU Test dates, eligibility, test pattern, and negative marking rules.'
+  },
+  {
+    slug: 'fast-negative-marking-strategy-2026-nu-test',
+    title: 'FAST Negative Marking Explained — How to Avoid Losing Marks',
+    description: 'Learn the exact penalty structure, skip strategies, and smart guessing techniques for FAST tests.'
+  },
+  {
+    slug: 'fast-2026-closing-merit-predictions-cs-se-ai',
+    title: 'FAST 2026 Closing Merit Predictions — CS, SE, and AI Programs Analysis',
+    description: 'FAST expected closing merit for Computer Science, Software Engineering, and AI across campuses.'
+  },
+  {
+    slug: 'fast-spring-vs-fall-2026-intake-comparison',
+    title: 'FAST Spring 2026 vs Fall 2026 — Which Intake Should You Target?',
+    description: 'Compare admission cycles, seat availability, and merit differences to choose the right intake.'
+  },
+  {
+    slug: 'fast-campuses-compared-islamabad-lahore-karachi-peshawar-cfd-2026',
+    title: 'FAST Campuses Compared — Islamabad, Lahore, Karachi, Peshawar, CFD',
+    description: 'Compare all FAST campuses for 2026 admissions: programs, facilities, and ROI.'
+  },
+
+  // --- GIKI BLOGS ---
+  {
+    slug: 'giki-admission-test-2026-complete-schedule-test-pattern-registration-guide',
+    title: 'GIKI Admission Test 2026 — Complete Schedule & Test Pattern',
+    description: 'Complete guide to GIKI 2026 undergraduate admissions, test dates July 6-10, and formula.'
+  },
+  {
+    slug: 'giki-admit-cards-2026-issued-what-candidates-must-know-before-july-6-10-test',
+    title: 'GIKI Admit Cards 2026 Issued — What Candidates Must Know',
+    description: 'Learn about test venues, reporting times, required documents, and last-minute preparation tips.'
+  },
+  {
+    slug: 'giki-vs-nust-vs-fast-engineering-admission-test-comparison-2026',
+    title: 'GIKI vs NUST vs FAST — Engineering Admission Test Comparison 2026',
+    description: 'Detailed comparison of top engineering universities, test patterns, merit, and rankings.'
+  },
+  {
+    slug: 'giki-financial-assistance-scholarships-2026-deadlines-and-eligibility',
+    title: 'GIKI Financial Assistance & Scholarships 2026 — Deadlines & Eligibility',
+    description: 'Complete guide to GIKI 2026 scholarships, need-based aid, and merit awards.'
+  },
+  {
+    slug: 'how-to-prepare-for-giki-admission-test-2026-subject-wise-strategy',
+    title: 'How to Prepare for GIKI Admission Test 2026 — Subject-wise Strategy',
+    description: 'Proven preparation strategy for Mathematics, Physics, Chemistry, and English sections.'
   }
 ];
 
