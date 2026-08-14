@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://universal-aggregate-calculator.vercel.app/sitemap.xml
