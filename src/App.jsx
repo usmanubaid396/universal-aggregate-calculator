@@ -10,6 +10,7 @@ import GikiCalculator from './pages/GikiCalculator';
 import ComsatsCalculator from './pages/ComsatsCalculator';
 import PieasCalculator from './pages/PieasCalculator';
 import NedCalculator from './pages/NedCalculator';
+import BlogPost from './pages/BlogPost'; // New import
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/calculator/nust" element={<NustCalculator />} />
             <Route path="/calculator/uet" element={<UetCalculator />} />
             <Route path="/calculator/mdcat" element={<MdcatCalculator />} />
